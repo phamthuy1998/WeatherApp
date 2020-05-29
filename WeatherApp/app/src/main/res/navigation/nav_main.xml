@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/todayFragment">
+
+    <fragment
+        android:id="@+id/todayFragment"
+        android:name="thuypham.n16dccn159.ptithcm.weatherapp.ui.today.TodayFragment"
+        android:label="TodayFragment"
+        tools:layout="@layout/fragment_today" />
+    <fragment
+        android:id="@+id/futureDetailFragment"
+        android:name="thuypham.n16dccn159.ptithcm.weatherapp.ui.seventday.FutureDetailFragment"
+        android:label="FutureDetailFragment"
+        tools:layout="@layout/fragment_future_detail" />
+    <fragment
+        android:id="@+id/sevenDayFragment"
+        android:name="thuypham.n16dccn159.ptithcm.weatherapp.ui.seventday.SevenDayFragment"
+        android:label="SevenDayFragment"
+        tools:layout="@layout/fragment_seven_day" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="thuypham.n16dccn159.ptithcm.weatherapp.ui.setting.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/fragment_setting" />
+</navigation>
